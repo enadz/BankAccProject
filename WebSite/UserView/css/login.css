@@ -1,0 +1,187 @@
+/* Split the screen in half */
+body{
+  font-family: Helvetica;
+}
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+ 
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+   /* background-color: #111; */
+
+}
+.register-bg {
+  background-color: #4e6571;
+}
+.login-bg {
+  background: url("../images/hero.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+
+.login input {
+  float: left;
+
+  width: 300px;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+}
+.left h4 {
+  font-family: helvetica;
+  font-size: 25px;
+  color: #36454f;
+}
+.login input::placeholder {
+  color: #36454f;
+}
+.login input:focus {
+   border: 1px solid #66ff99;
+}
+button {
+  width: 300px;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: #14334b;
+  color: white;
+}
+.centered li {
+  list-style: none;
+  margin-top: 45px;
+  background-color: #14334b;
+  padding: 20px 40px;
+
+}
+.centered a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.form-style label{
+  font-size: 16px;
+  color: #020e22;
+  padding: 5px;
+}
+.form-style input[type=text] , input[type=date], input[type=password] , input[type=number], input[type=email] , input[type=phone]{
+
+  width: 170px;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+input[type=password] {
+  width: 170px;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+input[type=password] {
+  width: 170px;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.half {
+  float: left;
+  margin-right: 5%;
+  width: 40%;
+}
+
+
+table, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 15px;
+}
+
+.back li {
+  list-style: none;
+  margin-top: 45px;
+  background-color: #14334b;
+  padding: 20px 40px;
+  width: 50px;
+
+}
+.back a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+select{
+  width: 170px;
+  border: 1px solid black;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
+
+
+}
+
+#password{
+  float: left;
+
+  width: 300px;
+  border: 1px solid black;
+  height: 50px;
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+h1{
+  color: #14334b;
+}
